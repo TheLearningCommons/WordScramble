@@ -1,0 +1,36 @@
+header {
+	text-align: center;
+}
+img {
+	width: 60%;
+}
+.jumbles {
+	float: left;
+	width: 50%;
+}
+.cartoon {
+	float: right;
+	width: 50%;
+}
+input[type=text] {
+	border: 1px solid black;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+}
+.squares1, .squares2, .squares3, .squares4, .squares5 {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+@media only screen and (max-width: 1325px) { 
+.jumbles {
+	float: left;
+	width: 100%;
+}
+.cartoon {
+	float: left;
+	width: 100%;
+}
+
+}
